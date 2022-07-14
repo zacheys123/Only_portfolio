@@ -1,0 +1,56 @@
+.remove {
+    display: none !important;
+}
+
+.active_page {
+    position: absolute;
+    display: block !important;
+    width: 100%;
+min-height:100%;
+  
+
+}
+.loading {
+    margin-top: 16rem;
+    margin-left: 12rem;
+    height: 5px;
+    position: absolute;
+    width: 20%;
+    border-radius: 20px;
+    background-color: #eee;
+}
+
+/* .personal {
+    background-image:url('./../../../assets/question1.jpg') !important;
+    background-position:center  ;background-repeat:no-repeat;
+    background-size:cover;
+ 
+}
+.tech {
+    background-image: url('./../../../assets/question1.jpg')!important;
+        background-position: center ;
+        background-repeat: no-repeat;
+        background-size: cover;
+      
+}
+.music {
+    background-image: url('./../../../assets/question1.jpg') !important;
+        background-position: center ;
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+}
+.other {
+    background-image: url('./../../../assets/question1.jpg') !important;
+
+        background-position: center ;
+        background-repeat: no-repeat;
+        background-size: cover;
+} */
+
+.lightBlue{
+    color:lightblue !important;
+}
+.rd{
+    color:red !important;
+}
