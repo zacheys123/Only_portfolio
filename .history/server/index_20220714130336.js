@@ -4,7 +4,6 @@ const multer = require('multer');
 const path = require('path');
 const app = express();
 
-const port = process.env.PORT || 3000;
 if (process.env.NODE_ENV === 'production') {
 	app.use(express.static('build'));
 	app.get('*', (req, res) => {
@@ -12,6 +11,6 @@ if (process.env.NODE_ENV === 'production') {
 	});
 }
 
-app.listen(port, () => {
+app.listen(5000, () => {
 	console.log('server has started on port 5000');
 });
